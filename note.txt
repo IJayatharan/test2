@@ -7,4 +7,15 @@ git config --global --add safe.directory /home/test2
 //
 /root/.ssh/id_ed25519
 
+//change jenkins user as root
+https://medium.com/fusionqa/how-to-run-jenkins-using-the-root-user-in-linux-centos-79d96749ca5a
+
 https://stackoverflow.com/questions/29926773/run-shell-command-in-jenkins-as-root-user
+
+//give root permission
+chown -R $(whoami) .
+
+
+https://www.shellhacks.com/how-to-grant-root-access-user-root-privileges-linux/
+
+https://askubuntu.com/questions/858569/git-permissions-issue
