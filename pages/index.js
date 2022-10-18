@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello World - Deployed from jenkins with secound user test1
+          Hello World - Deployed from jenkins
         </h1>
 
         <p className={styles.description}>
