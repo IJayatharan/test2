@@ -1,0 +1,6 @@
+[[ -d /home/copy ]] && rm -d /home/copy
+cp -a . /home/copy
+rm -fr /home/copy/.git
+cd /home/test2
+rm -rfv !(".git")
+cp -a /home/copy/. /home/test2
