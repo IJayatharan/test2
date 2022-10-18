@@ -19,3 +19,5 @@ chown -R $(whoami) .
 https://www.shellhacks.com/how-to-grant-root-access-user-root-privileges-linux/
 
 https://askubuntu.com/questions/858569/git-permissions-issue
+
+/var/lib/jenkins/.ssh/id_ed25519
