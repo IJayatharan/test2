@@ -4,3 +4,6 @@ rm -fr /home/copy/.git
 cd /home/test2
 rm -rfv !".git"
 cp -a /home/copy/. /home/test2
+
+git config --global user.email "indran@calcey.com"
+git config --global user.name "IJayatharan"
